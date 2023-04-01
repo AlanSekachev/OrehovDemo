@@ -1,0 +1,19 @@
+﻿<Window x:Class="demopr30.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:demopr30"
+        mc:Ignorable="d"
+        ResizeMode="NoResize"
+        Title="MainWindow" Height="350" Width="350">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="86,112,0,0" TextWrapping="Wrap" Text="Логин" VerticalAlignment="Top" Width="53" Foreground="#FFCC6600" FontFamily="Comic Sans MS"/>
+        <TextBlock HorizontalAlignment="Left" Margin="86,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="53" Foreground="#FFCC6600" FontFamily="Comic Sans MS"><Run Language="ru-ru" Text="Пароль"/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Margin="157,111,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Background="#FFFFCC99" x:Name="login"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="157,160,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-0.006,-0.24" Background="#FFFFCC99" x:Name="password"/>
+        <Button Content="Войти" HorizontalAlignment="Left" Margin="157,228,0,0" VerticalAlignment="Top" Width="120" FontFamily="Comic Sans MS" Background="#FFFFCC99" Click="Button_Click"/>
+        <Image Width="50" Height="50" HorizontalAlignment="left" Source="C:\Users\User\Desktop\Орехов ПР-30\УП.12.01 Программные решения для бизнеса\Задание на практику\Вариант 4\Общие ресурсы\logo.png" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="112,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="131" FontFamily="Comic Sans MS" FontSize="20" Foreground="#FFCC6600"><Run Language="ru-ru" Text="Авторизация"/></TextBlock>
+    </Grid>
+</Window>
